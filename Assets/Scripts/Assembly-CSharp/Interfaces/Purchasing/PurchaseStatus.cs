@@ -1,0 +1,13 @@
+namespace Interfaces.Purchasing
+{
+	public enum PurchaseStatus
+	{
+		PURCHASE_SUCCEEDED,
+		PURCHASE_FAILED,
+		PURCHASE_CANCELED,
+		PURCHASE_PENDING,
+		PURCHASE_REFUNDED,
+		PURCHASE_RESTORED,
+		PURCHASE_WAITING
+	}
+}

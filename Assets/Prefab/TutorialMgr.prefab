@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1156560050955543}
+  m_IsPrefabParent: 1
+--- !u!1 &1156560050955543
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4464588392834144}
+  - 114: {fileID: 114680608866889904}
+  m_Layer: 0
+  m_Name: TutorialMgr
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4464588392834144
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1156560050955543}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114680608866889904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1156560050955543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75c49ccbe34495348ac6ab7429613d57, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  GuideZPosition: -200
+  m_TriggerMapping:
+  - StepType: 1
+    Guide: {fileID: 114751072535733004, guid: 46631a7053f8e824881d25d89183902c, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 2
+    Guide: {fileID: 114092538097384472, guid: a1adad4a4f6b26e49b32bc47720fe7c7, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 102
+    Guide: {fileID: 114381125921450153, guid: 43ed9e1d584b85a4c91cc81f05e93e50, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 109
+    Guide: {fileID: 114766616627381533, guid: d14e02533c2d2e04f86874146d27f458, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 103
+    Guide: {fileID: 114381125921450153, guid: 43ed9e1d584b85a4c91cc81f05e93e50, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 104
+    Guide: {fileID: 114751072535733004, guid: 46631a7053f8e824881d25d89183902c, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 105
+    Guide: {fileID: 114381125921450153, guid: 43ed9e1d584b85a4c91cc81f05e93e50, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 108
+    Guide: {fileID: 114381125921450153, guid: 43ed9e1d584b85a4c91cc81f05e93e50, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 106
+    Guide: {fileID: 114727239610045375, guid: 4f2513d625c433041a9f84c1b78fda62, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 107
+    Guide: {fileID: 114381125921450153, guid: 43ed9e1d584b85a4c91cc81f05e93e50, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 3
+    Guide: {fileID: 114092538097384472, guid: a1adad4a4f6b26e49b32bc47720fe7c7, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 200
+    Guide: {fileID: 114751072535733004, guid: 46631a7053f8e824881d25d89183902c, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 209
+    Guide: {fileID: 114802284555533232, guid: 34994db4dfde8f242b4bc7bfd5ee650c, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 206
+    Guide: {fileID: 114092538097384472, guid: a1adad4a4f6b26e49b32bc47720fe7c7, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 210
+    Guide: {fileID: 114092538097384472, guid: a1adad4a4f6b26e49b32bc47720fe7c7, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 211
+    Guide: {fileID: 114751072535733004, guid: 46631a7053f8e824881d25d89183902c, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 212
+    Guide: {fileID: 114751072535733004, guid: 46631a7053f8e824881d25d89183902c, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 213
+    Guide: {fileID: 114751072535733004, guid: 46631a7053f8e824881d25d89183902c, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 214
+    Guide: {fileID: 114802284555533232, guid: 34994db4dfde8f242b4bc7bfd5ee650c, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 110
+    Guide: {fileID: 114751072535733004, guid: 46631a7053f8e824881d25d89183902c, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 107
+    Guide: {fileID: 114381125921450153, guid: 43ed9e1d584b85a4c91cc81f05e93e50, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 4
+    Guide: {fileID: 114751072535733004, guid: 46631a7053f8e824881d25d89183902c, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 5
+    Guide: {fileID: 114751072535733004, guid: 46631a7053f8e824881d25d89183902c, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 6
+    Guide: {fileID: 114802284555533232, guid: 34994db4dfde8f242b4bc7bfd5ee650c, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 7
+    Guide: {fileID: 114606702380608877, guid: 36d02d2071872034e83a9943a3193eb3, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 201
+    Guide: {fileID: 114751072535733004, guid: 46631a7053f8e824881d25d89183902c, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 216
+    Guide: {fileID: 114751072535733004, guid: 46631a7053f8e824881d25d89183902c, type: 2}
+    Offsets: {x: 0, y: 60}
+  - StepType: 215
+    Guide: {fileID: 114092538097384472, guid: a1adad4a4f6b26e49b32bc47720fe7c7, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 217
+    Guide: {fileID: 114005975321888482, guid: 11e6a5c10902cc14b887441097cd1eec, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 218
+    Guide: {fileID: 114751072535733004, guid: 46631a7053f8e824881d25d89183902c, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 219
+    Guide: {fileID: 114751072535733004, guid: 46631a7053f8e824881d25d89183902c, type: 2}
+    Offsets: {x: 0, y: 60}
+  - StepType: 220
+    Guide: {fileID: 114092538097384472, guid: a1adad4a4f6b26e49b32bc47720fe7c7, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 221
+    Guide: {fileID: 114727239610045375, guid: 4f2513d625c433041a9f84c1b78fda62, type: 2}
+    Offsets: {x: 0, y: 60}
+  - StepType: 111
+    Guide: {fileID: 114092538097384472, guid: a1adad4a4f6b26e49b32bc47720fe7c7, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 222
+    Guide: {fileID: 114092538097384472, guid: a1adad4a4f6b26e49b32bc47720fe7c7, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 8
+    Guide: {fileID: 114092538097384472, guid: a1adad4a4f6b26e49b32bc47720fe7c7, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 9
+    Guide: {fileID: 114727239610045375, guid: 4f2513d625c433041a9f84c1b78fda62, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 203
+    Guide: {fileID: 114092538097384472, guid: a1adad4a4f6b26e49b32bc47720fe7c7, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 224
+    Guide: {fileID: 114727239610045375, guid: 4f2513d625c433041a9f84c1b78fda62, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 225
+    Guide: {fileID: 114005975321888482, guid: 11e6a5c10902cc14b887441097cd1eec, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 226
+    Guide: {fileID: 114005975321888482, guid: 11e6a5c10902cc14b887441097cd1eec, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 113
+    Guide: {fileID: 114381125921450153, guid: 43ed9e1d584b85a4c91cc81f05e93e50, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 10
+    Guide: {fileID: 114100096509505186, guid: da6a763a8068ff74aaaa70fdf6ae77f5, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 227
+    Guide: {fileID: 114751072535733004, guid: 46631a7053f8e824881d25d89183902c, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 228
+    Guide: {fileID: 114606702380608877, guid: 36d02d2071872034e83a9943a3193eb3, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 229
+    Guide: {fileID: 114751072535733004, guid: 46631a7053f8e824881d25d89183902c, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 230
+    Guide: {fileID: 114751072535733004, guid: 46631a7053f8e824881d25d89183902c, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 235
+    Guide: {fileID: 114092538097384472, guid: a1adad4a4f6b26e49b32bc47720fe7c7, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 234
+    Guide: {fileID: 114092538097384472, guid: a1adad4a4f6b26e49b32bc47720fe7c7, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 233
+    Guide: {fileID: 114751072535733004, guid: 46631a7053f8e824881d25d89183902c, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 232
+    Guide: {fileID: 114751072535733004, guid: 46631a7053f8e824881d25d89183902c, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 236
+    Guide: {fileID: 114802284555533232, guid: 34994db4dfde8f242b4bc7bfd5ee650c, type: 2}
+    Offsets: {x: 0, y: 0}
+  - StepType: 237
+    Guide: {fileID: 114005975321888482, guid: 11e6a5c10902cc14b887441097cd1eec, type: 2}
+    Offsets: {x: 0, y: 0}
+  m_FinishedMarker: {fileID: 1449765693439156, guid: 963c18fc7eabc2047bf1f6ee672a8a2d, type: 2}

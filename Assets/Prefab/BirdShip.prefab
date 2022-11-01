@@ -1,0 +1,4316 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1889772303814809}
+  m_IsPrefabParent: 1
+--- !u!1 &1889772303814809
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4492199751967931}
+  - 114: {fileID: 114247277685750191}
+  - 82: {fileID: 82057435927344999}
+  - 114: {fileID: 114476894367623864}
+  - 111: {fileID: 111233229327583730}
+  - 137: {fileID: 137301505569099984}
+  m_Layer: 9
+  m_Name: BirdShip
+  m_TagString: Ship
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4492199751967931
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1889772303814809}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4005327065550981}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114247277685750191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1889772303814809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 285b0f5a5ec381a49896564862bcf859, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  mRenderer: {fileID: 137301505569099984}
+  mAnimation: {fileID: 111233229327583730}
+  mMesh: {fileID: 0}
+  mVertices:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: -87.98, y: 64, z: 0}
+  - {x: -87.98, y: 0, z: 0}
+  - {x: 78.02, y: 0, z: 0}
+  - {x: 78.02, y: 64, z: 0}
+  - {x: -16, y: 24, z: 0}
+  - {x: -16, y: 0, z: 0}
+  - {x: 16, y: 0, z: 0}
+  - {x: 16, y: 24, z: 0}
+  - {x: -100, y: 54, z: 0}
+  - {x: -100, y: 0, z: 0}
+  - {x: 100, y: 0, z: 0}
+  - {x: 100, y: 54, z: 0}
+  - {x: -24.5, y: 60, z: 0}
+  - {x: -24.5, y: 0, z: 0}
+  - {x: 24.5, y: 0, z: 0}
+  - {x: 24.5, y: 60, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 8.96, z: 0}
+  - {x: 0, y: -23.04, z: 0}
+  - {x: 144, y: -23.04, z: 0}
+  - {x: 144, y: 8.96, z: 0}
+  - {x: -12.76, y: 13.159999, z: 0}
+  - {x: -12.76, y: -80.840004, z: 0}
+  - {x: 45.24, y: -80.840004, z: 0}
+  - {x: 45.24, y: 13.159999, z: 0}
+  - {x: 0, y: 10.08, z: 0}
+  - {x: 0, y: -13.92, z: 0}
+  - {x: 50, y: -13.92, z: 0}
+  - {x: 50, y: 10.08, z: 0}
+  - {x: -11, y: 0, z: 0}
+  - {x: -11, y: -32, z: 0}
+  - {x: 11, y: -32, z: 0}
+  - {x: 11, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 0}
+  - {x: -73, y: 0, z: 0}
+  - {x: -73, y: -42, z: 0}
+  - {x: 73, y: -42, z: 0}
+  - {x: 73, y: 0, z: 0}
+  mUVs:
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0.46484375}
+  - {x: 0, y: 0.21484375}
+  - {x: 0.6484375, y: 0.21484375}
+  - {x: 0.6484375, y: 0.46484375}
+  - {x: 0.78515625, y: 0.19140625}
+  - {x: 0.78515625, y: 0.09765625}
+  - {x: 0.91015625, y: 0.09765625}
+  - {x: 0.91015625, y: 0.19140625}
+  - {x: 0, y: 0.2109375}
+  - {x: 0, y: 0}
+  - {x: 0.78125, y: 0}
+  - {x: 0.78125, y: 0.2109375}
+  - {x: 0.65234375, y: 0.44921875}
+  - {x: 0.65234375, y: 0.21484375}
+  - {x: 0.84375, y: 0.21484375}
+  - {x: 0.84375, y: 0.44921875}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0.76171875}
+  - {x: 0, y: 0.63671875}
+  - {x: 0.5625, y: 0.63671875}
+  - {x: 0.5625, y: 0.76171875}
+  - {x: 0.57421875, y: 0.8359375}
+  - {x: 0.57421875, y: 0.46875}
+  - {x: 0.80078125, y: 0.46875}
+  - {x: 0.80078125, y: 0.8359375}
+  - {x: 0.78515625, y: 0.09375}
+  - {x: 0.78515625, y: 0}
+  - {x: 0.98046875, y: 0}
+  - {x: 0.98046875, y: 0.09375}
+  - {x: 0.84765625, y: 0.33984375}
+  - {x: 0.84765625, y: 0.21484375}
+  - {x: 0.93359375, y: 0.21484375}
+  - {x: 0.93359375, y: 0.33984375}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0}
+  - {x: 0, y: 0.6328125}
+  - {x: 0, y: 0.46875}
+  - {x: 0.5703125, y: 0.46875}
+  - {x: 0.5703125, y: 0.6328125}
+  mColors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  animationData: {fileID: 0}
+  animationDataGUID: 01c27bcac455e024a82bfb799b5de09a
+  mMaterialSource:
+  - {fileID: 2100000, guid: 7464b8f6b081e654c95938f0bdb7c3ea, type: 2}
+  mBoneSource:
+  - boneNodeIndex: 0
+    boneDataIndex: 0
+    boneName: Root
+    boneQuad:
+      boneNodeIndex: 0
+      vertexIndices: 000000000300000001000000030000000200000001000000
+    gameObject: {fileID: 1011911227970730}
+    boneTransform: {fileID: 4005327065550981}
+    spriteTransform: {fileID: 4265396790617547}
+    boneAnimation: {fileID: 114247277685750191}
+    boneCollider: {fileID: 0}
+    boneColor:
+      blendingWeight: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+    active: 1
+    visible: 0
+    materialIndex: -1
+    depth: 0
+  - boneNodeIndex: 1
+    boneDataIndex: 1
+    boneName: Hull
+    boneQuad:
+      boneNodeIndex: 1
+      vertexIndices: 040000000700000005000000070000000600000005000000
+    gameObject: {fileID: 1901243517428478}
+    boneTransform: {fileID: 4193582357705721}
+    spriteTransform: {fileID: 4629182132287576}
+    boneAnimation: {fileID: 114247277685750191}
+    boneCollider: {fileID: 0}
+    boneColor:
+      blendingWeight: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+    active: 1
+    visible: 0
+    materialIndex: -1
+    depth: 0
+  - boneNodeIndex: 2
+    boneDataIndex: 2
+    boneName: Front_1
+    boneQuad:
+      boneNodeIndex: 2
+      vertexIndices: 080000000b000000090000000b0000000a00000009000000
+    gameObject: {fileID: 1379110732451481}
+    boneTransform: {fileID: 4452546554645145}
+    spriteTransform: {fileID: 4343192561115154}
+    boneAnimation: {fileID: 114247277685750191}
+    boneCollider: {fileID: 0}
+    boneColor:
+      blendingWeight: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+    active: 1
+    visible: 1
+    materialIndex: 0
+    depth: 10
+  - boneNodeIndex: 3
+    boneDataIndex: 3
+    boneName: Front_2
+    boneQuad:
+      boneNodeIndex: 3
+      vertexIndices: 0c0000000f0000000d0000000f0000000e0000000d000000
+    gameObject: {fileID: 1361358059889529}
+    boneTransform: {fileID: 4249528002907406}
+    spriteTransform: {fileID: 4258277001738160}
+    boneAnimation: {fileID: 114247277685750191}
+    boneCollider: {fileID: 0}
+    boneColor:
+      blendingWeight: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+    active: 1
+    visible: 1
+    materialIndex: 0
+    depth: 10
+  - boneNodeIndex: 4
+    boneDataIndex: 4
+    boneName: Back_1
+    boneQuad:
+      boneNodeIndex: 4
+      vertexIndices: 100000001300000011000000130000001200000011000000
+    gameObject: {fileID: 1907725342288958}
+    boneTransform: {fileID: 4973016865050724}
+    spriteTransform: {fileID: 4875802566178274}
+    boneAnimation: {fileID: 114247277685750191}
+    boneCollider: {fileID: 0}
+    boneColor:
+      blendingWeight: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+    active: 1
+    visible: 1
+    materialIndex: 0
+    depth: 20
+  - boneNodeIndex: 5
+    boneDataIndex: 5
+    boneName: Back_2
+    boneQuad:
+      boneNodeIndex: 5
+      vertexIndices: 140000001700000015000000170000001600000015000000
+    gameObject: {fileID: 1828229634761683}
+    boneTransform: {fileID: 4118056964018461}
+    spriteTransform: {fileID: 4129659626038566}
+    boneAnimation: {fileID: 114247277685750191}
+    boneCollider: {fileID: 0}
+    boneColor:
+      blendingWeight: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+    active: 1
+    visible: 1
+    materialIndex: 0
+    depth: 20
+  - boneNodeIndex: 6
+    boneDataIndex: 6
+    boneName: Mast
+    boneQuad:
+      boneNodeIndex: 6
+      vertexIndices: 180000001b000000190000001b0000001a00000019000000
+    gameObject: {fileID: 1736110388088949}
+    boneTransform: {fileID: 4972202111886576}
+    spriteTransform: {fileID: 4499152222756110}
+    boneAnimation: {fileID: 114247277685750191}
+    boneCollider: {fileID: 0}
+    boneColor:
+      blendingWeight: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+    active: 1
+    visible: 0
+    materialIndex: -1
+    depth: 0
+  - boneNodeIndex: 7
+    boneDataIndex: 7
+    boneName: Pole
+    boneQuad:
+      boneNodeIndex: 7
+      vertexIndices: 1c0000001f0000001d0000001f0000001e0000001d000000
+    gameObject: {fileID: 1616616505234739}
+    boneTransform: {fileID: 4906893469858211}
+    spriteTransform: {fileID: 4826597296276211}
+    boneAnimation: {fileID: 114247277685750191}
+    boneCollider: {fileID: 0}
+    boneColor:
+      blendingWeight: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+    active: 1
+    visible: 1
+    materialIndex: 0
+    depth: 19
+  - boneNodeIndex: 8
+    boneDataIndex: 8
+    boneName: Sail
+    boneQuad:
+      boneNodeIndex: 8
+      vertexIndices: 200000002300000021000000230000002200000021000000
+    gameObject: {fileID: 1916912283615110}
+    boneTransform: {fileID: 4429885611712531}
+    spriteTransform: {fileID: 4074772342592940}
+    boneAnimation: {fileID: 114247277685750191}
+    boneCollider: {fileID: 0}
+    boneColor:
+      blendingWeight: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+    active: 1
+    visible: 1
+    materialIndex: 0
+    depth: 18
+  - boneNodeIndex: 9
+    boneDataIndex: 9
+    boneName: Flag
+    boneQuad:
+      boneNodeIndex: 9
+      vertexIndices: 240000002700000025000000270000002600000025000000
+    gameObject: {fileID: 1481000945245056}
+    boneTransform: {fileID: 4238532697503447}
+    spriteTransform: {fileID: 4415507257859141}
+    boneAnimation: {fileID: 114247277685750191}
+    boneCollider: {fileID: 0}
+    boneColor:
+      blendingWeight: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+    active: 1
+    visible: 1
+    materialIndex: 0
+    depth: 17
+  - boneNodeIndex: 10
+    boneDataIndex: 10
+    boneName: Lantern
+    boneQuad:
+      boneNodeIndex: 10
+      vertexIndices: 280000002b000000290000002b0000002a00000029000000
+    gameObject: {fileID: 1821408469155785}
+    boneTransform: {fileID: 4416520572920678}
+    spriteTransform: {fileID: 4714656402469941}
+    boneAnimation: {fileID: 114247277685750191}
+    boneCollider: {fileID: 0}
+    boneColor:
+      blendingWeight: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+    active: 1
+    visible: 1
+    materialIndex: 0
+    depth: 19
+  - boneNodeIndex: 11
+    boneDataIndex: 12
+    boneName: Character
+    boneQuad:
+      boneNodeIndex: 11
+      vertexIndices: 2c0000002f0000002d0000002f0000002e0000002d000000
+    gameObject: {fileID: 1094889578838827}
+    boneTransform: {fileID: 4514873943755087}
+    spriteTransform: {fileID: 4897434147811571}
+    boneAnimation: {fileID: 114247277685750191}
+    boneCollider: {fileID: 0}
+    boneColor:
+      blendingWeight: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+    active: 1
+    visible: 0
+    materialIndex: -1
+    depth: 0
+  - boneNodeIndex: 12
+    boneDataIndex: 11
+    boneName: Wave
+    boneQuad:
+      boneNodeIndex: 12
+      vertexIndices: 300000003300000031000000330000003200000031000000
+    gameObject: {fileID: 1206694959284079}
+    boneTransform: {fileID: 4049381587957204}
+    spriteTransform: {fileID: 4067897414099549}
+    boneAnimation: {fileID: 114247277685750191}
+    boneCollider: {fileID: 0}
+    boneColor:
+      blendingWeight: 0
+      color: {r: 1, g: 1, b: 1, a: 1}
+    active: 1
+    visible: 1
+    materialIndex: 0
+    depth: 5
+  mBoneTransforms:
+  - {fileID: 4005327065550981}
+  - {fileID: 4265396790617547}
+  - {fileID: 4193582357705721}
+  - {fileID: 4629182132287576}
+  - {fileID: 4452546554645145}
+  - {fileID: 4343192561115154}
+  - {fileID: 4249528002907406}
+  - {fileID: 4258277001738160}
+  - {fileID: 4973016865050724}
+  - {fileID: 4875802566178274}
+  - {fileID: 4118056964018461}
+  - {fileID: 4129659626038566}
+  - {fileID: 4972202111886576}
+  - {fileID: 4499152222756110}
+  - {fileID: 4906893469858211}
+  - {fileID: 4826597296276211}
+  - {fileID: 4429885611712531}
+  - {fileID: 4074772342592940}
+  - {fileID: 4238532697503447}
+  - {fileID: 4415507257859141}
+  - {fileID: 4416520572920678}
+  - {fileID: 4714656402469941}
+  - {fileID: 4514873943755087}
+  - {fileID: 4897434147811571}
+  - {fileID: 4049381587957204}
+  - {fileID: 4067897414099549}
+  mMaterials:
+  - {fileID: 2100000, guid: 7464b8f6b081e654c95938f0bdb7c3ea, type: 2}
+  buildID: 201403261644024446
+  mFinalImportScale: 1
+  mDefaultAnimationName: Idle
+  mLastBoneColor:
+  - blendingWeight: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - blendingWeight: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - blendingWeight: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - blendingWeight: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - blendingWeight: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - blendingWeight: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - blendingWeight: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - blendingWeight: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - blendingWeight: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - blendingWeight: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - blendingWeight: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - blendingWeight: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  - blendingWeight: 0
+    color: {r: 1, g: 1, b: 1, a: 1}
+  mLastFinalColor:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
+  mBoneColorAnimations:
+  - boneColor: {r: 0, g: 0, b: 0, a: 0}
+    blendWeight: 0
+  - boneColor: {r: 0, g: 0, b: 0, a: 0}
+    blendWeight: 0
+  - boneColor: {r: 0, g: 0, b: 0, a: 0}
+    blendWeight: 0
+  - boneColor: {r: 0, g: 0, b: 0, a: 0}
+    blendWeight: 0
+  - boneColor: {r: 0, g: 0, b: 0, a: 0}
+    blendWeight: 0
+  - boneColor: {r: 0, g: 0, b: 0, a: 0}
+    blendWeight: 0
+  - boneColor: {r: 0, g: 0, b: 0, a: 0}
+    blendWeight: 0
+  - boneColor: {r: 0, g: 0, b: 0, a: 0}
+    blendWeight: 0
+  - boneColor: {r: 0, g: 0, b: 0, a: 0}
+    blendWeight: 0
+  - boneColor: {r: 0, g: 0, b: 0, a: 0}
+    blendWeight: 0
+  - boneColor: {r: 0, g: 0, b: 0, a: 0}
+    blendWeight: 0
+  - boneColor: {r: 0, g: 0, b: 0, a: 0}
+    blendWeight: 0
+  - boneColor: {r: 0, g: 0, b: 0, a: 0}
+    blendWeight: 0
+  mCurrentTriggerFrameBones:
+  - boneNodeIndex: 0
+    animationName:
+    animationLayer: -1
+  - boneNodeIndex: 1
+    animationName:
+    animationLayer: -1
+  - boneNodeIndex: 2
+    animationName:
+    animationLayer: -1
+  - boneNodeIndex: 3
+    animationName:
+    animationLayer: -1
+  - boneNodeIndex: 4
+    animationName:
+    animationLayer: -1
+  - boneNodeIndex: 5
+    animationName:
+    animationLayer: -1
+  - boneNodeIndex: 6
+    animationName:
+    animationLayer: -1
+  - boneNodeIndex: 7
+    animationName:
+    animationLayer: -1
+  - boneNodeIndex: 8
+    animationName:
+    animationLayer: -1
+  - boneNodeIndex: 9
+    animationName:
+    animationLayer: -1
+  - boneNodeIndex: 10
+    animationName:
+    animationLayer: -1
+  - boneNodeIndex: 11
+    animationName:
+    animationLayer: -1
+  - boneNodeIndex: 12
+    animationName:
+    animationLayer: -1
+  mBoneTransformPaths:
+  - Root
+  - Root/Hull
+  - Root/Hull/Front_1
+  - Root/Hull/Front_2
+  - Root/Hull/Back_1
+  - Root/Hull/Back_2
+  - Root/Hull/Mast
+  - Root/Hull/Mast/Pole
+  - Root/Hull/Mast/Sail
+  - Root/Hull/Mast/Flag
+  - Root/Hull/Lantern
+  - Root/Hull/Character
+  - Root/Wave
+  mSpriteTransformPaths:
+  - Root/Root_Sprite
+  - Root/Hull/Hull_Sprite
+  - Root/Hull/Front_1/Front_1_Sprite
+  - Root/Hull/Front_2/Front_2_Sprite
+  - Root/Hull/Back_1/Back_1_Sprite
+  - Root/Hull/Back_2/Back_2_Sprite
+  - Root/Hull/Mast/Mast_Sprite
+  - Root/Hull/Mast/Pole/Pole_Sprite
+  - Root/Hull/Mast/Sail/Sail_Sprite
+  - Root/Hull/Mast/Flag/Flag_Sprite
+  - Root/Hull/Lantern/Lantern_Sprite
+  - Root/Hull/Character/Character_Sprite
+  - Root/Wave/Wave_Sprite
+  triggerFrames:
+  - clipIndex: 0
+    frame: 0
+    triggerFrameBones:
+    - userTriggerTag:
+      boneNodeIndex: 0
+      triggerEventTypes: 0100000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag:
+      boneNodeIndex: 1
+      triggerEventTypes: 0100000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag:
+      boneNodeIndex: 2
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0.03, y: -0.5}
+      upperLeft: {x: -87.98, y: 64, z: 0}
+      bottomLeft: {x: -87.98, y: 0, z: 0}
+      bottomRight: {x: 78.02, y: 0, z: 0}
+      upperRight: {x: 78.02, y: 64, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0.21484375
+        width: 0.6484375
+        height: 0.25
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: ad8afa690dcc4b842a0b5b158b1405a8
+      materialIndex: 0
+      depth: 10
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: ad8afa690dcc4b842a0b5b158b1405a8
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0.21484375
+        width: 0.6484375
+        height: 0.25
+      originalPivotOffset: {x: 0.03, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 3
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: -0.5}
+      upperLeft: {x: -16, y: 24, z: 0}
+      bottomLeft: {x: -16, y: 0, z: 0}
+      bottomRight: {x: 16, y: 0, z: 0}
+      upperRight: {x: 16, y: 24, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0.09765625
+        width: 0.125
+        height: 0.09375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 1e90268ac870af94e9d6ba42cf386718
+      materialIndex: 0
+      depth: 10
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 1e90268ac870af94e9d6ba42cf386718
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0.09765625
+        width: 0.125
+        height: 0.09375
+      originalPivotOffset: {x: 0, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 4
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: -0.5}
+      upperLeft: {x: -100, y: 54, z: 0}
+      bottomLeft: {x: -100, y: 0, z: 0}
+      bottomRight: {x: 100, y: 0, z: 0}
+      upperRight: {x: 100, y: 54, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0.78125
+        height: 0.2109375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: e9dac2e37e5fa8b439ccba94ffa9824d
+      materialIndex: 0
+      depth: 20
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: e9dac2e37e5fa8b439ccba94ffa9824d
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0.78125
+        height: 0.2109375
+      originalPivotOffset: {x: 0, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 5
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: -0.5}
+      upperLeft: {x: -24.5, y: 60, z: 0}
+      bottomLeft: {x: -24.5, y: 0, z: 0}
+      bottomRight: {x: 24.5, y: 0, z: 0}
+      upperRight: {x: 24.5, y: 60, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.65234375
+        y: 0.21484375
+        width: 0.19140625
+        height: 0.234375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 7ca6643551c180447a70565162c91e57
+      materialIndex: 0
+      depth: 20
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 7ca6643551c180447a70565162c91e57
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.65234375
+        y: 0.21484375
+        width: 0.19140625
+        height: 0.234375
+      originalPivotOffset: {x: 0, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 6
+      triggerEventTypes: 0100000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag:
+      boneNodeIndex: 7
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: -0.5, y: 0.22}
+      upperLeft: {x: 0, y: 8.96, z: 0}
+      bottomLeft: {x: 0, y: -23.04, z: 0}
+      bottomRight: {x: 144, y: -23.04, z: 0}
+      upperRight: {x: 144, y: 8.96, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0.63671875
+        width: 0.5625
+        height: 0.125
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: f88701eecb2a434479bcde80346c3960
+      materialIndex: 0
+      depth: 19
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: f88701eecb2a434479bcde80346c3960
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0.63671875
+        width: 0.5625
+        height: 0.125
+      originalPivotOffset: {x: -0.5, y: 0.22}
+    - userTriggerTag:
+      boneNodeIndex: 8
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: -0.28, y: 0.36}
+      upperLeft: {x: -12.76, y: 13.159999, z: 0}
+      bottomLeft: {x: -12.76, y: -80.840004, z: 0}
+      bottomRight: {x: 45.24, y: -80.840004, z: 0}
+      upperRight: {x: 45.24, y: 13.159999, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.57421875
+        y: 0.46875
+        width: 0.2265625
+        height: 0.3671875
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 7a5087dc1991c044fb07f301bc7ab3fc
+      materialIndex: 0
+      depth: 18
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 7a5087dc1991c044fb07f301bc7ab3fc
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.57421875
+        y: 0.46875
+        width: 0.2265625
+        height: 0.3671875
+      originalPivotOffset: {x: -0.28, y: 0.36}
+    - userTriggerTag:
+      boneNodeIndex: 9
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: -0.5, y: 0.08}
+      upperLeft: {x: 0, y: 10.08, z: 0}
+      bottomLeft: {x: 0, y: -13.92, z: 0}
+      bottomRight: {x: 50, y: -13.92, z: 0}
+      upperRight: {x: 50, y: 10.08, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0
+        width: 0.1953125
+        height: 0.09375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 901c176efbde3ce45b1cf1e65cb465b9
+      materialIndex: 0
+      depth: 17
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 901c176efbde3ce45b1cf1e65cb465b9
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0
+        width: 0.1953125
+        height: 0.09375
+      originalPivotOffset: {x: -0.5, y: 0.08}
+    - userTriggerTag:
+      boneNodeIndex: 10
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0.5}
+      upperLeft: {x: -11, y: 0, z: 0}
+      bottomLeft: {x: -11, y: -32, z: 0}
+      bottomRight: {x: 11, y: -32, z: 0}
+      upperRight: {x: 11, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.84765625
+        y: 0.21484375
+        width: 0.0859375
+        height: 0.125
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: e5a429514d4efe34d819b1ddbd7d10bd
+      materialIndex: 0
+      depth: 19
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: e5a429514d4efe34d819b1ddbd7d10bd
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.84765625
+        y: 0.21484375
+        width: 0.0859375
+        height: 0.125
+      originalPivotOffset: {x: 0, y: 0.5}
+    - userTriggerTag:
+      boneNodeIndex: 11
+      triggerEventTypes: 0100000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag:
+      boneNodeIndex: 12
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0.5}
+      upperLeft: {x: -73, y: 0, z: 0}
+      bottomLeft: {x: -73, y: -42, z: 0}
+      bottomRight: {x: 73, y: -42, z: 0}
+      upperRight: {x: 73, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0.46875
+        width: 0.5703125
+        height: 0.1640625
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 54df3ea24300b9947a1e958d6d3f5cb6
+      materialIndex: 0
+      depth: 5
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 54df3ea24300b9947a1e958d6d3f5cb6
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0.46875
+        width: 0.5703125
+        height: 0.1640625
+      originalPivotOffset: {x: 0, y: 0.5}
+  - clipIndex: 0
+    frame: 96
+    triggerFrameBones:
+    - userTriggerTag:
+      boneNodeIndex: 1
+      triggerEventTypes: 06000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag:
+      boneNodeIndex: 2
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0.03, y: -0.5}
+      upperLeft: {x: -87.98, y: 64, z: 0}
+      bottomLeft: {x: -87.98, y: 0, z: 0}
+      bottomRight: {x: 78.02, y: 0, z: 0}
+      upperRight: {x: 78.02, y: 64, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0.21484375
+        width: 0.6484375
+        height: 0.25
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: ad8afa690dcc4b842a0b5b158b1405a8
+      materialIndex: 0
+      depth: 10
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: ad8afa690dcc4b842a0b5b158b1405a8
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0.21484375
+        width: 0.6484375
+        height: 0.25
+      originalPivotOffset: {x: 0.03, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 3
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: -0.5}
+      upperLeft: {x: -16, y: 24, z: 0}
+      bottomLeft: {x: -16, y: 0, z: 0}
+      bottomRight: {x: 16, y: 0, z: 0}
+      upperRight: {x: 16, y: 24, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0.09765625
+        width: 0.125
+        height: 0.09375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 1e90268ac870af94e9d6ba42cf386718
+      materialIndex: 0
+      depth: 10
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 1e90268ac870af94e9d6ba42cf386718
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0.09765625
+        width: 0.125
+        height: 0.09375
+      originalPivotOffset: {x: 0, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 4
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: -0.5}
+      upperLeft: {x: -100, y: 54, z: 0}
+      bottomLeft: {x: -100, y: 0, z: 0}
+      bottomRight: {x: 100, y: 0, z: 0}
+      upperRight: {x: 100, y: 54, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0.78125
+        height: 0.2109375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: e9dac2e37e5fa8b439ccba94ffa9824d
+      materialIndex: 0
+      depth: 20
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: e9dac2e37e5fa8b439ccba94ffa9824d
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0.78125
+        height: 0.2109375
+      originalPivotOffset: {x: 0, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 5
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: -0.5}
+      upperLeft: {x: -24.5, y: 60, z: 0}
+      bottomLeft: {x: -24.5, y: 0, z: 0}
+      bottomRight: {x: 24.5, y: 0, z: 0}
+      upperRight: {x: 24.5, y: 60, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.65234375
+        y: 0.21484375
+        width: 0.19140625
+        height: 0.234375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 7ca6643551c180447a70565162c91e57
+      materialIndex: 0
+      depth: 20
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 7ca6643551c180447a70565162c91e57
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.65234375
+        y: 0.21484375
+        width: 0.19140625
+        height: 0.234375
+      originalPivotOffset: {x: 0, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 6
+      triggerEventTypes: 06000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag:
+      boneNodeIndex: 7
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: -0.5, y: 0.22}
+      upperLeft: {x: 0, y: 8.96, z: 0}
+      bottomLeft: {x: 0, y: -23.04, z: 0}
+      bottomRight: {x: 144, y: -23.04, z: 0}
+      upperRight: {x: 144, y: 8.96, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0.63671875
+        width: 0.5625
+        height: 0.125
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: f88701eecb2a434479bcde80346c3960
+      materialIndex: 0
+      depth: 19
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: f88701eecb2a434479bcde80346c3960
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0.63671875
+        width: 0.5625
+        height: 0.125
+      originalPivotOffset: {x: -0.5, y: 0.22}
+    - userTriggerTag:
+      boneNodeIndex: 8
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: -0.28, y: 0.36}
+      upperLeft: {x: -12.76, y: 13.159999, z: 0}
+      bottomLeft: {x: -12.76, y: -80.840004, z: 0}
+      bottomRight: {x: 45.24, y: -80.840004, z: 0}
+      upperRight: {x: 45.24, y: 13.159999, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.57421875
+        y: 0.46875
+        width: 0.2265625
+        height: 0.3671875
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 7a5087dc1991c044fb07f301bc7ab3fc
+      materialIndex: 0
+      depth: 18
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 7a5087dc1991c044fb07f301bc7ab3fc
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.57421875
+        y: 0.46875
+        width: 0.2265625
+        height: 0.3671875
+      originalPivotOffset: {x: -0.28, y: 0.36}
+    - userTriggerTag:
+      boneNodeIndex: 9
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: -0.5, y: 0.08}
+      upperLeft: {x: 0, y: 10.08, z: 0}
+      bottomLeft: {x: 0, y: -13.92, z: 0}
+      bottomRight: {x: 50, y: -13.92, z: 0}
+      upperRight: {x: 50, y: 10.08, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0
+        width: 0.1953125
+        height: 0.09375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 901c176efbde3ce45b1cf1e65cb465b9
+      materialIndex: 0
+      depth: 17
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 901c176efbde3ce45b1cf1e65cb465b9
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0
+        width: 0.1953125
+        height: 0.09375
+      originalPivotOffset: {x: -0.5, y: 0.08}
+    - userTriggerTag:
+      boneNodeIndex: 10
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0.5}
+      upperLeft: {x: -11, y: 0, z: 0}
+      bottomLeft: {x: -11, y: -32, z: 0}
+      bottomRight: {x: 11, y: -32, z: 0}
+      upperRight: {x: 11, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.84765625
+        y: 0.21484375
+        width: 0.0859375
+        height: 0.125
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: e5a429514d4efe34d819b1ddbd7d10bd
+      materialIndex: 0
+      depth: 19
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: e5a429514d4efe34d819b1ddbd7d10bd
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.84765625
+        y: 0.21484375
+        width: 0.0859375
+        height: 0.125
+      originalPivotOffset: {x: 0, y: 0.5}
+    - userTriggerTag:
+      boneNodeIndex: 11
+      triggerEventTypes: 06000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag:
+      boneNodeIndex: 12
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0.5}
+      upperLeft: {x: -73, y: 0, z: 0}
+      bottomLeft: {x: -73, y: -42, z: 0}
+      bottomRight: {x: 73, y: -42, z: 0}
+      upperRight: {x: 73, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0.46875
+        width: 0.5703125
+        height: 0.1640625
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 54df3ea24300b9947a1e958d6d3f5cb6
+      materialIndex: 0
+      depth: 5
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 54df3ea24300b9947a1e958d6d3f5cb6
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0.46875
+        width: 0.5703125
+        height: 0.1640625
+      originalPivotOffset: {x: 0, y: 0.5}
+  - clipIndex: 1
+    frame: 0
+    triggerFrameBones:
+    - userTriggerTag:
+      boneNodeIndex: 0
+      triggerEventTypes: 0100000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag:
+      boneNodeIndex: 1
+      triggerEventTypes: 0100000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag:
+      boneNodeIndex: 2
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0.03, y: -0.5}
+      upperLeft: {x: -87.98, y: 64, z: 0}
+      bottomLeft: {x: -87.98, y: 0, z: 0}
+      bottomRight: {x: 78.02, y: 0, z: 0}
+      upperRight: {x: 78.02, y: 64, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0.21484375
+        width: 0.6484375
+        height: 0.25
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: ad8afa690dcc4b842a0b5b158b1405a8
+      materialIndex: 0
+      depth: 10
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: ad8afa690dcc4b842a0b5b158b1405a8
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0.21484375
+        width: 0.6484375
+        height: 0.25
+      originalPivotOffset: {x: 0.03, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 3
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: -0.5}
+      upperLeft: {x: -16, y: 24, z: 0}
+      bottomLeft: {x: -16, y: 0, z: 0}
+      bottomRight: {x: 16, y: 0, z: 0}
+      upperRight: {x: 16, y: 24, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0.09765625
+        width: 0.125
+        height: 0.09375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 1e90268ac870af94e9d6ba42cf386718
+      materialIndex: 0
+      depth: 10
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 1e90268ac870af94e9d6ba42cf386718
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0.09765625
+        width: 0.125
+        height: 0.09375
+      originalPivotOffset: {x: 0, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 4
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: -0.5}
+      upperLeft: {x: -100, y: 54, z: 0}
+      bottomLeft: {x: -100, y: 0, z: 0}
+      bottomRight: {x: 100, y: 0, z: 0}
+      upperRight: {x: 100, y: 54, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0.78125
+        height: 0.2109375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: e9dac2e37e5fa8b439ccba94ffa9824d
+      materialIndex: 0
+      depth: 20
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: e9dac2e37e5fa8b439ccba94ffa9824d
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0.78125
+        height: 0.2109375
+      originalPivotOffset: {x: 0, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 5
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: -0.5}
+      upperLeft: {x: -24.5, y: 60, z: 0}
+      bottomLeft: {x: -24.5, y: 0, z: 0}
+      bottomRight: {x: 24.5, y: 0, z: 0}
+      upperRight: {x: 24.5, y: 60, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.65234375
+        y: 0.21484375
+        width: 0.19140625
+        height: 0.234375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 7ca6643551c180447a70565162c91e57
+      materialIndex: 0
+      depth: 20
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 7ca6643551c180447a70565162c91e57
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.65234375
+        y: 0.21484375
+        width: 0.19140625
+        height: 0.234375
+      originalPivotOffset: {x: 0, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 6
+      triggerEventTypes: 0100000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag:
+      boneNodeIndex: 7
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: -0.5, y: 0.22}
+      upperLeft: {x: 0, y: 8.96, z: 0}
+      bottomLeft: {x: 0, y: -23.04, z: 0}
+      bottomRight: {x: 144, y: -23.04, z: 0}
+      upperRight: {x: 144, y: 8.96, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0.63671875
+        width: 0.5625
+        height: 0.125
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: f88701eecb2a434479bcde80346c3960
+      materialIndex: 0
+      depth: 19
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: f88701eecb2a434479bcde80346c3960
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0.63671875
+        width: 0.5625
+        height: 0.125
+      originalPivotOffset: {x: -0.5, y: 0.22}
+    - userTriggerTag:
+      boneNodeIndex: 8
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: -0.28, y: 0.36}
+      upperLeft: {x: -12.76, y: 13.159999, z: 0}
+      bottomLeft: {x: -12.76, y: -80.840004, z: 0}
+      bottomRight: {x: 45.24, y: -80.840004, z: 0}
+      upperRight: {x: 45.24, y: 13.159999, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.57421875
+        y: 0.46875
+        width: 0.2265625
+        height: 0.3671875
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 7a5087dc1991c044fb07f301bc7ab3fc
+      materialIndex: 0
+      depth: 18
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 7a5087dc1991c044fb07f301bc7ab3fc
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.57421875
+        y: 0.46875
+        width: 0.2265625
+        height: 0.3671875
+      originalPivotOffset: {x: -0.28, y: 0.36}
+    - userTriggerTag:
+      boneNodeIndex: 9
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: -0.5, y: 0.08}
+      upperLeft: {x: 0, y: 10.08, z: 0}
+      bottomLeft: {x: 0, y: -13.92, z: 0}
+      bottomRight: {x: 50, y: -13.92, z: 0}
+      upperRight: {x: 50, y: 10.08, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0
+        width: 0.1953125
+        height: 0.09375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 901c176efbde3ce45b1cf1e65cb465b9
+      materialIndex: 0
+      depth: 17
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 901c176efbde3ce45b1cf1e65cb465b9
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0
+        width: 0.1953125
+        height: 0.09375
+      originalPivotOffset: {x: -0.5, y: 0.08}
+    - userTriggerTag:
+      boneNodeIndex: 10
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0.5}
+      upperLeft: {x: -11, y: 0, z: 0}
+      bottomLeft: {x: -11, y: -32, z: 0}
+      bottomRight: {x: 11, y: -32, z: 0}
+      upperRight: {x: 11, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.84765625
+        y: 0.21484375
+        width: 0.0859375
+        height: 0.125
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: e5a429514d4efe34d819b1ddbd7d10bd
+      materialIndex: 0
+      depth: 19
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: e5a429514d4efe34d819b1ddbd7d10bd
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.84765625
+        y: 0.21484375
+        width: 0.0859375
+        height: 0.125
+      originalPivotOffset: {x: 0, y: 0.5}
+    - userTriggerTag:
+      boneNodeIndex: 11
+      triggerEventTypes: 0100000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag:
+      boneNodeIndex: 12
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0.5}
+      upperLeft: {x: -73, y: 0, z: 0}
+      bottomLeft: {x: -73, y: -42, z: 0}
+      bottomRight: {x: 73, y: -42, z: 0}
+      upperRight: {x: 73, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0.46875
+        width: 0.5703125
+        height: 0.1640625
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 54df3ea24300b9947a1e958d6d3f5cb6
+      materialIndex: 0
+      depth: 5
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 54df3ea24300b9947a1e958d6d3f5cb6
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0.46875
+        width: 0.5703125
+        height: 0.1640625
+      originalPivotOffset: {x: 0, y: 0.5}
+  - clipIndex: 1
+    frame: 1
+    triggerFrameBones:
+    - userTriggerTag: PlaySound_Move
+      boneNodeIndex: 1
+      triggerEventTypes: 00000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+  - clipIndex: 1
+    frame: 48
+    triggerFrameBones:
+    - userTriggerTag:
+      boneNodeIndex: 1
+      triggerEventTypes: 06000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag:
+      boneNodeIndex: 2
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0.03, y: -0.5}
+      upperLeft: {x: -87.98, y: 64, z: 0}
+      bottomLeft: {x: -87.98, y: 0, z: 0}
+      bottomRight: {x: 78.02, y: 0, z: 0}
+      upperRight: {x: 78.02, y: 64, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0.21484375
+        width: 0.6484375
+        height: 0.25
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: ad8afa690dcc4b842a0b5b158b1405a8
+      materialIndex: 0
+      depth: 10
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: ad8afa690dcc4b842a0b5b158b1405a8
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0.21484375
+        width: 0.6484375
+        height: 0.25
+      originalPivotOffset: {x: 0.03, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 3
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: -0.5}
+      upperLeft: {x: -16, y: 24, z: 0}
+      bottomLeft: {x: -16, y: 0, z: 0}
+      bottomRight: {x: 16, y: 0, z: 0}
+      upperRight: {x: 16, y: 24, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0.09765625
+        width: 0.125
+        height: 0.09375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 1e90268ac870af94e9d6ba42cf386718
+      materialIndex: 0
+      depth: 10
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 1e90268ac870af94e9d6ba42cf386718
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0.09765625
+        width: 0.125
+        height: 0.09375
+      originalPivotOffset: {x: 0, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 4
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: -0.5}
+      upperLeft: {x: -100, y: 54, z: 0}
+      bottomLeft: {x: -100, y: 0, z: 0}
+      bottomRight: {x: 100, y: 0, z: 0}
+      upperRight: {x: 100, y: 54, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0.78125
+        height: 0.2109375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: e9dac2e37e5fa8b439ccba94ffa9824d
+      materialIndex: 0
+      depth: 20
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: e9dac2e37e5fa8b439ccba94ffa9824d
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0.78125
+        height: 0.2109375
+      originalPivotOffset: {x: 0, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 5
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: -0.5}
+      upperLeft: {x: -24.5, y: 60, z: 0}
+      bottomLeft: {x: -24.5, y: 0, z: 0}
+      bottomRight: {x: 24.5, y: 0, z: 0}
+      upperRight: {x: 24.5, y: 60, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.65234375
+        y: 0.21484375
+        width: 0.19140625
+        height: 0.234375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 7ca6643551c180447a70565162c91e57
+      materialIndex: 0
+      depth: 20
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 7ca6643551c180447a70565162c91e57
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.65234375
+        y: 0.21484375
+        width: 0.19140625
+        height: 0.234375
+      originalPivotOffset: {x: 0, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 6
+      triggerEventTypes: 06000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag:
+      boneNodeIndex: 7
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: -0.5, y: 0.22}
+      upperLeft: {x: 0, y: 8.96, z: 0}
+      bottomLeft: {x: 0, y: -23.04, z: 0}
+      bottomRight: {x: 144, y: -23.04, z: 0}
+      upperRight: {x: 144, y: 8.96, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0.63671875
+        width: 0.5625
+        height: 0.125
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: f88701eecb2a434479bcde80346c3960
+      materialIndex: 0
+      depth: 19
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: f88701eecb2a434479bcde80346c3960
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0.63671875
+        width: 0.5625
+        height: 0.125
+      originalPivotOffset: {x: -0.5, y: 0.22}
+    - userTriggerTag:
+      boneNodeIndex: 8
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: -0.28, y: 0.36}
+      upperLeft: {x: -12.76, y: 13.159999, z: 0}
+      bottomLeft: {x: -12.76, y: -80.840004, z: 0}
+      bottomRight: {x: 45.24, y: -80.840004, z: 0}
+      upperRight: {x: 45.24, y: 13.159999, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.57421875
+        y: 0.46875
+        width: 0.2265625
+        height: 0.3671875
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 7a5087dc1991c044fb07f301bc7ab3fc
+      materialIndex: 0
+      depth: 18
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 7a5087dc1991c044fb07f301bc7ab3fc
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.57421875
+        y: 0.46875
+        width: 0.2265625
+        height: 0.3671875
+      originalPivotOffset: {x: -0.28, y: 0.36}
+    - userTriggerTag:
+      boneNodeIndex: 9
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: -0.5, y: 0.08}
+      upperLeft: {x: 0, y: 10.08, z: 0}
+      bottomLeft: {x: 0, y: -13.92, z: 0}
+      bottomRight: {x: 50, y: -13.92, z: 0}
+      upperRight: {x: 50, y: 10.08, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0
+        width: 0.1953125
+        height: 0.09375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 901c176efbde3ce45b1cf1e65cb465b9
+      materialIndex: 0
+      depth: 17
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 901c176efbde3ce45b1cf1e65cb465b9
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0
+        width: 0.1953125
+        height: 0.09375
+      originalPivotOffset: {x: -0.5, y: 0.08}
+    - userTriggerTag:
+      boneNodeIndex: 10
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0.5}
+      upperLeft: {x: -11, y: 0, z: 0}
+      bottomLeft: {x: -11, y: -32, z: 0}
+      bottomRight: {x: 11, y: -32, z: 0}
+      upperRight: {x: 11, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.84765625
+        y: 0.21484375
+        width: 0.0859375
+        height: 0.125
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: e5a429514d4efe34d819b1ddbd7d10bd
+      materialIndex: 0
+      depth: 19
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: e5a429514d4efe34d819b1ddbd7d10bd
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.84765625
+        y: 0.21484375
+        width: 0.0859375
+        height: 0.125
+      originalPivotOffset: {x: 0, y: 0.5}
+    - userTriggerTag:
+      boneNodeIndex: 11
+      triggerEventTypes: 06000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag:
+      boneNodeIndex: 12
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0.5}
+      upperLeft: {x: -73, y: 0, z: 0}
+      bottomLeft: {x: -73, y: -42, z: 0}
+      bottomRight: {x: 73, y: -42, z: 0}
+      upperRight: {x: 73, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0.46875
+        width: 0.5703125
+        height: 0.1640625
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 54df3ea24300b9947a1e958d6d3f5cb6
+      materialIndex: 0
+      depth: 5
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 54df3ea24300b9947a1e958d6d3f5cb6
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0.46875
+        width: 0.5703125
+        height: 0.1640625
+      originalPivotOffset: {x: 0, y: 0.5}
+  - clipIndex: 2
+    frame: 0
+    triggerFrameBones:
+    - userTriggerTag:
+      boneNodeIndex: 1
+      triggerEventTypes: 0100000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+  - clipIndex: 2
+    frame: 12
+    triggerFrameBones:
+    - userTriggerTag:
+      boneNodeIndex: 1
+      triggerEventTypes: 06000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+  - clipIndex: 3
+    frame: 0
+    triggerFrameBones:
+    - userTriggerTag:
+      boneNodeIndex: 1
+      triggerEventTypes: 0100000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+  - clipIndex: 3
+    frame: 6
+    triggerFrameBones:
+    - userTriggerTag:
+      boneNodeIndex: 1
+      triggerEventTypes: 06000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+  - clipIndex: 4
+    frame: 0
+    triggerFrameBones:
+    - userTriggerTag:
+      boneNodeIndex: 0
+      triggerEventTypes: 0100000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag:
+      boneNodeIndex: 1
+      triggerEventTypes: 0100000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag:
+      boneNodeIndex: 2
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0.03, y: -0.5}
+      upperLeft: {x: -87.98, y: 64, z: 0}
+      bottomLeft: {x: -87.98, y: 0, z: 0}
+      bottomRight: {x: 78.02, y: 0, z: 0}
+      upperRight: {x: 78.02, y: 64, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0.21484375
+        width: 0.6484375
+        height: 0.25
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: ad8afa690dcc4b842a0b5b158b1405a8
+      materialIndex: 0
+      depth: 10
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: ad8afa690dcc4b842a0b5b158b1405a8
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0.21484375
+        width: 0.6484375
+        height: 0.25
+      originalPivotOffset: {x: 0.03, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 3
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: -0.5}
+      upperLeft: {x: -16, y: 24, z: 0}
+      bottomLeft: {x: -16, y: 0, z: 0}
+      bottomRight: {x: 16, y: 0, z: 0}
+      upperRight: {x: 16, y: 24, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0.09765625
+        width: 0.125
+        height: 0.09375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 1e90268ac870af94e9d6ba42cf386718
+      materialIndex: 0
+      depth: 10
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 1e90268ac870af94e9d6ba42cf386718
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0.09765625
+        width: 0.125
+        height: 0.09375
+      originalPivotOffset: {x: 0, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 4
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: -0.5}
+      upperLeft: {x: -100, y: 54, z: 0}
+      bottomLeft: {x: -100, y: 0, z: 0}
+      bottomRight: {x: 100, y: 0, z: 0}
+      upperRight: {x: 100, y: 54, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0.78125
+        height: 0.2109375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: e9dac2e37e5fa8b439ccba94ffa9824d
+      materialIndex: 0
+      depth: 20
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: e9dac2e37e5fa8b439ccba94ffa9824d
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0.78125
+        height: 0.2109375
+      originalPivotOffset: {x: 0, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 5
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: -0.5}
+      upperLeft: {x: -24.5, y: 60, z: 0}
+      bottomLeft: {x: -24.5, y: 0, z: 0}
+      bottomRight: {x: 24.5, y: 0, z: 0}
+      upperRight: {x: 24.5, y: 60, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.65234375
+        y: 0.21484375
+        width: 0.19140625
+        height: 0.234375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 7ca6643551c180447a70565162c91e57
+      materialIndex: 0
+      depth: 20
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 7ca6643551c180447a70565162c91e57
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.65234375
+        y: 0.21484375
+        width: 0.19140625
+        height: 0.234375
+      originalPivotOffset: {x: 0, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 6
+      triggerEventTypes: 0100000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag:
+      boneNodeIndex: 7
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: -0.5, y: 0.22}
+      upperLeft: {x: 0, y: 8.96, z: 0}
+      bottomLeft: {x: 0, y: -23.04, z: 0}
+      bottomRight: {x: 144, y: -23.04, z: 0}
+      upperRight: {x: 144, y: 8.96, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0.63671875
+        width: 0.5625
+        height: 0.125
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: f88701eecb2a434479bcde80346c3960
+      materialIndex: 0
+      depth: 19
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: f88701eecb2a434479bcde80346c3960
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0.63671875
+        width: 0.5625
+        height: 0.125
+      originalPivotOffset: {x: -0.5, y: 0.22}
+    - userTriggerTag:
+      boneNodeIndex: 8
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: -0.28, y: 0.36}
+      upperLeft: {x: -12.76, y: 13.159999, z: 0}
+      bottomLeft: {x: -12.76, y: -80.840004, z: 0}
+      bottomRight: {x: 45.24, y: -80.840004, z: 0}
+      upperRight: {x: 45.24, y: 13.159999, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.57421875
+        y: 0.46875
+        width: 0.2265625
+        height: 0.3671875
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 7a5087dc1991c044fb07f301bc7ab3fc
+      materialIndex: 0
+      depth: 18
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 7a5087dc1991c044fb07f301bc7ab3fc
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.57421875
+        y: 0.46875
+        width: 0.2265625
+        height: 0.3671875
+      originalPivotOffset: {x: -0.28, y: 0.36}
+    - userTriggerTag:
+      boneNodeIndex: 9
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: -0.5, y: 0.08}
+      upperLeft: {x: 0, y: 10.08, z: 0}
+      bottomLeft: {x: 0, y: -13.92, z: 0}
+      bottomRight: {x: 50, y: -13.92, z: 0}
+      upperRight: {x: 50, y: 10.08, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0
+        width: 0.1953125
+        height: 0.09375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 901c176efbde3ce45b1cf1e65cb465b9
+      materialIndex: 0
+      depth: 17
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 901c176efbde3ce45b1cf1e65cb465b9
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0
+        width: 0.1953125
+        height: 0.09375
+      originalPivotOffset: {x: -0.5, y: 0.08}
+    - userTriggerTag:
+      boneNodeIndex: 10
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0.5}
+      upperLeft: {x: -11, y: 0, z: 0}
+      bottomLeft: {x: -11, y: -32, z: 0}
+      bottomRight: {x: 11, y: -32, z: 0}
+      upperRight: {x: 11, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.84765625
+        y: 0.21484375
+        width: 0.0859375
+        height: 0.125
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: e5a429514d4efe34d819b1ddbd7d10bd
+      materialIndex: 0
+      depth: 19
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: e5a429514d4efe34d819b1ddbd7d10bd
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.84765625
+        y: 0.21484375
+        width: 0.0859375
+        height: 0.125
+      originalPivotOffset: {x: 0, y: 0.5}
+    - userTriggerTag:
+      boneNodeIndex: 11
+      triggerEventTypes: 0100000006000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag:
+      boneNodeIndex: 12
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0.5}
+      upperLeft: {x: -73, y: 0, z: 0}
+      bottomLeft: {x: -73, y: -42, z: 0}
+      bottomRight: {x: 73, y: -42, z: 0}
+      upperRight: {x: 73, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0.46875
+        width: 0.5703125
+        height: 0.1640625
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 54df3ea24300b9947a1e958d6d3f5cb6
+      materialIndex: 0
+      depth: 5
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 54df3ea24300b9947a1e958d6d3f5cb6
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0.46875
+        width: 0.5703125
+        height: 0.1640625
+      originalPivotOffset: {x: 0, y: 0.5}
+  - clipIndex: 4
+    frame: 1
+    triggerFrameBones:
+    - userTriggerTag:
+      boneNodeIndex: 1
+      triggerEventTypes: 06000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag:
+      boneNodeIndex: 2
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0.03, y: -0.5}
+      upperLeft: {x: -87.98, y: 64, z: 0}
+      bottomLeft: {x: -87.98, y: 0, z: 0}
+      bottomRight: {x: 78.02, y: 0, z: 0}
+      upperRight: {x: 78.02, y: 64, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0.21484375
+        width: 0.6484375
+        height: 0.25
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: ad8afa690dcc4b842a0b5b158b1405a8
+      materialIndex: 0
+      depth: 10
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: ad8afa690dcc4b842a0b5b158b1405a8
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0.21484375
+        width: 0.6484375
+        height: 0.25
+      originalPivotOffset: {x: 0.03, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 3
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: -0.5}
+      upperLeft: {x: -16, y: 24, z: 0}
+      bottomLeft: {x: -16, y: 0, z: 0}
+      bottomRight: {x: 16, y: 0, z: 0}
+      upperRight: {x: 16, y: 24, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0.09765625
+        width: 0.125
+        height: 0.09375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 1e90268ac870af94e9d6ba42cf386718
+      materialIndex: 0
+      depth: 10
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 1e90268ac870af94e9d6ba42cf386718
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0.09765625
+        width: 0.125
+        height: 0.09375
+      originalPivotOffset: {x: 0, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 4
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: -0.5}
+      upperLeft: {x: -100, y: 54, z: 0}
+      bottomLeft: {x: -100, y: 0, z: 0}
+      bottomRight: {x: 100, y: 0, z: 0}
+      upperRight: {x: 100, y: 54, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0.78125
+        height: 0.2109375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: e9dac2e37e5fa8b439ccba94ffa9824d
+      materialIndex: 0
+      depth: 20
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: e9dac2e37e5fa8b439ccba94ffa9824d
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0.78125
+        height: 0.2109375
+      originalPivotOffset: {x: 0, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 5
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: -0.5}
+      upperLeft: {x: -24.5, y: 60, z: 0}
+      bottomLeft: {x: -24.5, y: 0, z: 0}
+      bottomRight: {x: 24.5, y: 0, z: 0}
+      upperRight: {x: 24.5, y: 60, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.65234375
+        y: 0.21484375
+        width: 0.19140625
+        height: 0.234375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 7ca6643551c180447a70565162c91e57
+      materialIndex: 0
+      depth: 20
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 7ca6643551c180447a70565162c91e57
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.65234375
+        y: 0.21484375
+        width: 0.19140625
+        height: 0.234375
+      originalPivotOffset: {x: 0, y: -0.5}
+    - userTriggerTag:
+      boneNodeIndex: 6
+      triggerEventTypes: 06000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag:
+      boneNodeIndex: 7
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: -0.5, y: 0.22}
+      upperLeft: {x: 0, y: 8.96, z: 0}
+      bottomLeft: {x: 0, y: -23.04, z: 0}
+      bottomRight: {x: 144, y: -23.04, z: 0}
+      upperRight: {x: 144, y: 8.96, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0.63671875
+        width: 0.5625
+        height: 0.125
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: f88701eecb2a434479bcde80346c3960
+      materialIndex: 0
+      depth: 19
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: f88701eecb2a434479bcde80346c3960
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0.63671875
+        width: 0.5625
+        height: 0.125
+      originalPivotOffset: {x: -0.5, y: 0.22}
+    - userTriggerTag:
+      boneNodeIndex: 8
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: -0.28, y: 0.36}
+      upperLeft: {x: -12.76, y: 13.159999, z: 0}
+      bottomLeft: {x: -12.76, y: -80.840004, z: 0}
+      bottomRight: {x: 45.24, y: -80.840004, z: 0}
+      upperRight: {x: 45.24, y: 13.159999, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.57421875
+        y: 0.46875
+        width: 0.2265625
+        height: 0.3671875
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 7a5087dc1991c044fb07f301bc7ab3fc
+      materialIndex: 0
+      depth: 18
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 7a5087dc1991c044fb07f301bc7ab3fc
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.57421875
+        y: 0.46875
+        width: 0.2265625
+        height: 0.3671875
+      originalPivotOffset: {x: -0.28, y: 0.36}
+    - userTriggerTag:
+      boneNodeIndex: 9
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: -0.5, y: 0.08}
+      upperLeft: {x: 0, y: 10.08, z: 0}
+      bottomLeft: {x: 0, y: -13.92, z: 0}
+      bottomRight: {x: 50, y: -13.92, z: 0}
+      upperRight: {x: 50, y: 10.08, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0
+        width: 0.1953125
+        height: 0.09375
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 901c176efbde3ce45b1cf1e65cb465b9
+      materialIndex: 0
+      depth: 17
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 901c176efbde3ce45b1cf1e65cb465b9
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.78515625
+        y: 0
+        width: 0.1953125
+        height: 0.09375
+      originalPivotOffset: {x: -0.5, y: 0.08}
+    - userTriggerTag:
+      boneNodeIndex: 10
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0.5}
+      upperLeft: {x: -11, y: 0, z: 0}
+      bottomLeft: {x: -11, y: -32, z: 0}
+      bottomRight: {x: 11, y: -32, z: 0}
+      upperRight: {x: 11, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0.84765625
+        y: 0.21484375
+        width: 0.0859375
+        height: 0.125
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: e5a429514d4efe34d819b1ddbd7d10bd
+      materialIndex: 0
+      depth: 19
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: e5a429514d4efe34d819b1ddbd7d10bd
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0.84765625
+        y: 0.21484375
+        width: 0.0859375
+        height: 0.125
+      originalPivotOffset: {x: 0, y: 0.5}
+    - userTriggerTag:
+      boneNodeIndex: 11
+      triggerEventTypes: 06000000
+      pivotOffset: {x: 0, y: 0}
+      upperLeft: {x: 0, y: 0, z: 0}
+      bottomLeft: {x: 0, y: 0, z: 0}
+      bottomRight: {x: 0, y: 0, z: 0}
+      upperRight: {x: 0, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 0}
+      textureGUID:
+      materialIndex: 0
+      depth: 0
+      originalAtlas: {fileID: 0}
+      originalTextureGUID:
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      originalPivotOffset: {x: 0, y: 0}
+    - userTriggerTag:
+      boneNodeIndex: 12
+      triggerEventTypes: 02000000040000000300000006000000
+      pivotOffset: {x: 0, y: 0.5}
+      upperLeft: {x: -73, y: 0, z: 0}
+      bottomLeft: {x: -73, y: -42, z: 0}
+      bottomRight: {x: 73, y: -42, z: 0}
+      upperRight: {x: 73, y: 0, z: 0}
+      uv:
+        serializedVersion: 2
+        x: 0
+        y: 0.46875
+        width: 0.5703125
+        height: 0.1640625
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: 0
+      localScale: {x: 0, y: 0}
+      atlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      textureGUID: 54df3ea24300b9947a1e958d6d3f5cb6
+      materialIndex: 0
+      depth: 5
+      originalAtlas: {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+      originalTextureGUID: 54df3ea24300b9947a1e958d6d3f5cb6
+      originalMaterialIndex: 0
+      originalUV:
+        serializedVersion: 2
+        x: 0
+        y: 0.46875
+        width: 0.5703125
+        height: 0.1640625
+      originalPivotOffset: {x: 0, y: 0.5}
+  textureAtlases:
+  - {fileID: 11400000, guid: d6285681c2fd2ed4badda223bb5a7445, type: 2}
+  mAnimationClips:
+  - animationName: Idle
+    fps: 24
+    wrapMode: 2
+    mix: 0
+    blendMode: 0
+    layer: 0
+    blendWeight: 1
+    bones:
+    - boneDataIndex: 0
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 1
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 2
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 3
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 4
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 5
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 6
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 7
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 8
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 9
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 10
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 11
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 12
+      mixTransform: 0
+      animatesColor: 0
+  - animationName: Move
+    fps: 24
+    wrapMode: 2
+    mix: 0
+    blendMode: 0
+    layer: 0
+    blendWeight: 1
+    bones:
+    - boneDataIndex: 0
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 1
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 2
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 3
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 4
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 5
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 6
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 7
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 8
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 9
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 10
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 11
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 12
+      mixTransform: 0
+      animatesColor: 0
+  - animationName: Show
+    fps: 24
+    wrapMode: 1
+    mix: 1
+    blendMode: 1
+    layer: 1
+    blendWeight: 1
+    bones:
+    - boneDataIndex: 0
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 1
+      mixTransform: 1
+      animatesColor: 0
+    - boneDataIndex: 2
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 3
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 4
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 5
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 6
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 7
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 8
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 9
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 10
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 11
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 12
+      mixTransform: 0
+      animatesColor: 0
+  - animationName: Hide
+    fps: 24
+    wrapMode: 1
+    mix: 1
+    blendMode: 1
+    layer: 1
+    blendWeight: 1
+    bones:
+    - boneDataIndex: 0
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 1
+      mixTransform: 1
+      animatesColor: 0
+    - boneDataIndex: 2
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 3
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 4
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 5
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 6
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 7
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 8
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 9
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 10
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 11
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 12
+      mixTransform: 0
+      animatesColor: 0
+  - animationName: Base
+    fps: 24
+    wrapMode: 1
+    mix: 0
+    blendMode: 0
+    layer: 0
+    blendWeight: 1
+    bones:
+    - boneDataIndex: 0
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 1
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 2
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 3
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 4
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 5
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 6
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 7
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 8
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 9
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 10
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 11
+      mixTransform: 0
+      animatesColor: 0
+    - boneDataIndex: 12
+      mixTransform: 0
+      animatesColor: 0
+  mAnimationStates: []
+  mLocalTransform: {fileID: 4492199751967931}
+  mMeshColor: {r: 1, g: 1, b: 1, a: 1}
+  updateColors: 0
+  updatePrefabs: 1
+--- !u!82 &82057435927344999
+AudioSource:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1889772303814809}
+  m_Enabled: 1
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 0
+  MinDistance: 1
+  MaxDistance: 1800
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0.0005
+      value: 1
+      inSlope: 0
+      outSlope: -0
+      tangentMode: 0
+    - time: 0.63837177
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: -7.9894304
+      outSlope: -7.9894304
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &114476894367623864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1889772303814809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d50150321512c1e4a832f715dbe6349d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  m_SoundTriggerPairs:
+  - TriggerId: PlaySound_Move
+    SoundId: Character_Ship_Move
+--- !u!111 &111233229327583730
+Animation:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1889772303814809}
+  m_Enabled: 1
+  m_Animation: {fileID: 7400000, guid: 3b87fe7c1ec763440b8cb586f9ed79b8, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 3b87fe7c1ec763440b8cb586f9ed79b8, type: 2}
+  - {fileID: 7400000, guid: 436f97727fd74e847ab1777e8b90a941, type: 2}
+  - {fileID: 7400000, guid: 9ef9b2a7760dd1c4f80b1b615da39cb4, type: 2}
+  - {fileID: 7400000, guid: c64cfebfa7bb18f41ac95b21208b85b6, type: 2}
+  - {fileID: 7400000, guid: 108399d6df54a524cabaa3e463d91c2c, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 1
+--- !u!137 &137301505569099984
+SkinnedMeshRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1889772303814809}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 7464b8f6b081e654c95938f0bdb7c3ea, type: 2}
+  m_SubsetIndices: []
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedWireframeHidden: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_Quality: 1
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: 0}
+  m_Bones:
+  - {fileID: 4005327065550981}
+  - {fileID: 4265396790617547}
+  - {fileID: 4193582357705721}
+  - {fileID: 4629182132287576}
+  - {fileID: 4452546554645145}
+  - {fileID: 4343192561115154}
+  - {fileID: 4249528002907406}
+  - {fileID: 4258277001738160}
+  - {fileID: 4973016865050724}
+  - {fileID: 4875802566178274}
+  - {fileID: 4118056964018461}
+  - {fileID: 4129659626038566}
+  - {fileID: 4972202111886576}
+  - {fileID: 4499152222756110}
+  - {fileID: 4906893469858211}
+  - {fileID: 4826597296276211}
+  - {fileID: 4429885611712531}
+  - {fileID: 4074772342592940}
+  - {fileID: 4238532697503447}
+  - {fileID: 4415507257859141}
+  - {fileID: 4416520572920678}
+  - {fileID: 4714656402469941}
+  - {fileID: 4514873943755087}
+  - {fileID: 4897434147811571}
+  - {fileID: 4049381587957204}
+  - {fileID: 4067897414099549}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 0}
+  m_AABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_DirtyAABB: 1
+--- !u!1 &1011911227970730
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4005327065550981}
+  m_Layer: 9
+  m_Name: Root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4005327065550981
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1011911227970730}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4193582357705721}
+  - {fileID: 4265396790617547}
+  - {fileID: 4049381587957204}
+  m_Father: {fileID: 4492199751967931}
+  m_RootOrder: 0
+--- !u!1 &1901243517428478
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4193582357705721}
+  m_Layer: 9
+  m_Name: Hull
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4193582357705721
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1901243517428478}
+  m_LocalRotation: {x: 0, y: 0, z: -0.008726535, w: 0.9999619}
+  m_LocalPosition: {x: 0, y: -2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 1}
+  m_Children:
+  - {fileID: 4973016865050724}
+  - {fileID: 4118056964018461}
+  - {fileID: 4514873943755087}
+  - {fileID: 4452546554645145}
+  - {fileID: 4249528002907406}
+  - {fileID: 4629182132287576}
+  - {fileID: 4416520572920678}
+  - {fileID: 4972202111886576}
+  m_Father: {fileID: 4005327065550981}
+  m_RootOrder: 0
+--- !u!1 &1907725342288958
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4973016865050724}
+  m_Layer: 9
+  m_Name: Back_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4973016865050724
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1907725342288958}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7, y: 20, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4875802566178274}
+  m_Father: {fileID: 4193582357705721}
+  m_RootOrder: 0
+--- !u!1 &1834385913379667
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4875802566178274}
+  m_Layer: 9
+  m_Name: Back_1_Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4875802566178274
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1834385913379667}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4973016865050724}
+  m_RootOrder: 0
+--- !u!1 &1828229634761683
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4118056964018461}
+  m_Layer: 9
+  m_Name: Back_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4118056964018461
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1828229634761683}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -69, y: 73.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4129659626038566}
+  m_Father: {fileID: 4193582357705721}
+  m_RootOrder: 1
+--- !u!1 &1228798548611301
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4129659626038566}
+  m_Layer: 9
+  m_Name: Back_2_Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4129659626038566
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1228798548611301}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4118056964018461}
+  m_RootOrder: 0
+--- !u!1 &1094889578838827
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4514873943755087}
+  m_Layer: 9
+  m_Name: Character
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4514873943755087
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1094889578838827}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14, y: 42, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4897434147811571}
+  m_Father: {fileID: 4193582357705721}
+  m_RootOrder: 2
+--- !u!1 &1378484081081558
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4897434147811571}
+  m_Layer: 9
+  m_Name: Character_Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4897434147811571
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1378484081081558}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4514873943755087}
+  m_RootOrder: 0
+--- !u!1 &1379110732451481
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4452546554645145}
+  m_Layer: 9
+  m_Name: Front_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4452546554645145
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1379110732451481}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4343192561115154}
+  m_Father: {fileID: 4193582357705721}
+  m_RootOrder: 3
+--- !u!1 &1200693459074996
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4343192561115154}
+  m_Layer: 9
+  m_Name: Front_1_Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4343192561115154
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1200693459074996}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4452546554645145}
+  m_RootOrder: 0
+--- !u!1 &1361358059889529
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4249528002907406}
+  m_Layer: 9
+  m_Name: Front_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4249528002907406
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1361358059889529}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -72, y: 63.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4258277001738160}
+  m_Father: {fileID: 4193582357705721}
+  m_RootOrder: 4
+--- !u!1 &1097581658525568
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4258277001738160}
+  m_Layer: 9
+  m_Name: Front_2_Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4258277001738160
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1097581658525568}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4249528002907406}
+  m_RootOrder: 0
+--- !u!1 &1136945719196059
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4629182132287576}
+  m_Layer: 9
+  m_Name: Hull_Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4629182132287576
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1136945719196059}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4193582357705721}
+  m_RootOrder: 5
+--- !u!1 &1821408469155785
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4416520572920678}
+  m_Layer: 9
+  m_Name: Lantern
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4416520572920678
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1821408469155785}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -81, y: 128, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4714656402469941}
+  m_Father: {fileID: 4193582357705721}
+  m_RootOrder: 6
+--- !u!1 &1111149503768188
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4714656402469941}
+  m_Layer: 9
+  m_Name: Lantern_Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4714656402469941
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1111149503768188}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4416520572920678}
+  m_RootOrder: 0
+--- !u!1 &1736110388088949
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4972202111886576}
+  m_Layer: 9
+  m_Name: Mast
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4972202111886576
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1736110388088949}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12, y: 40, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4238532697503447}
+  - {fileID: 4499152222756110}
+  - {fileID: 4906893469858211}
+  - {fileID: 4429885611712531}
+  m_Father: {fileID: 4193582357705721}
+  m_RootOrder: 7
+--- !u!1 &1481000945245056
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4238532697503447}
+  m_Layer: 9
+  m_Name: Flag
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4238532697503447
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1481000945245056}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3, y: 128, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4415507257859141}
+  m_Father: {fileID: 4972202111886576}
+  m_RootOrder: 0
+--- !u!1 &1828669413583811
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4415507257859141}
+  m_Layer: 9
+  m_Name: Flag_Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4415507257859141
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1828669413583811}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4238532697503447}
+  m_RootOrder: 0
+--- !u!1 &1849993220704594
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4499152222756110}
+  m_Layer: 9
+  m_Name: Mast_Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4499152222756110
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1849993220704594}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4972202111886576}
+  m_RootOrder: 1
+--- !u!1 &1616616505234739
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4906893469858211}
+  m_Layer: 9
+  m_Name: Pole
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4906893469858211
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1616616505234739}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -90}
+  m_Children:
+  - {fileID: 4826597296276211}
+  m_Father: {fileID: 4972202111886576}
+  m_RootOrder: 2
+--- !u!1 &1964640314355095
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4826597296276211}
+  m_Layer: 9
+  m_Name: Pole_Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4826597296276211
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1964640314355095}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4906893469858211}
+  m_RootOrder: 0
+--- !u!1 &1916912283615110
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4429885611712531}
+  m_Layer: 9
+  m_Name: Sail
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4429885611712531
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1916912283615110}
+  m_LocalRotation: {x: 0, y: 0, z: -0.02617695, w: 0.99965733}
+  m_LocalPosition: {x: 11, y: 89, z: 0}
+  m_LocalScale: {x: 0.85, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: 3.0000002}
+  m_Children:
+  - {fileID: 4074772342592940}
+  m_Father: {fileID: 4972202111886576}
+  m_RootOrder: 3
+--- !u!1 &1846023947974845
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4074772342592940}
+  m_Layer: 9
+  m_Name: Sail_Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4074772342592940
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1846023947974845}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4429885611712531}
+  m_RootOrder: 0
+--- !u!1 &1417407213929794
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4265396790617547}
+  m_Layer: 9
+  m_Name: Root_Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4265396790617547
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1417407213929794}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4005327065550981}
+  m_RootOrder: 1
+--- !u!1 &1206694959284079
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4049381587957204}
+  m_Layer: 9
+  m_Name: Wave
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4049381587957204
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1206694959284079}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4, y: 15, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children:
+  - {fileID: 4067897414099549}
+  m_Father: {fileID: 4005327065550981}
+  m_RootOrder: 2
+--- !u!1 &1098069885429782
+GameObject:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Component:
+  - 4: {fileID: 4067897414099549}
+  m_Layer: 9
+  m_Name: Wave_Sprite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4067897414099549
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1098069885429782}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+  m_Children: []
+  m_Father: {fileID: 4049381587957204}
+  m_RootOrder: 0
